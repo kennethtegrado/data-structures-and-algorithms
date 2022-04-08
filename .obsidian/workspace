@@ -7,8 +7,12 @@
         "id": "c187db507162e055",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "algorithms/sort/Insertion Sort.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "algorithms/sort/Insertion Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,8 +90,9 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
-    "algorithms/Insertion Sort.md",
+    "algorithms/sort/Insertion Sort.md",
     "Introduction to Algorithms.md",
+    "algorithms/Insertion Sort.md",
     "Competitive Programmer's Handbook.md",
     "Problem Solving Patterns.md",
     "images/Pasted image 20220403165656.png",
