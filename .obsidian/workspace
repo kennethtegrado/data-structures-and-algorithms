@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algorithms/sort/Insertion Sort.md",
+            "file": "algorithms/sort/Merge Sort.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/sort/Insertion Sort.md",
+                "file": "algorithms/sort/Merge Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +90,9 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
-    "algorithms/sort/Insertion Sort.md",
+    "algorithms/sort/Merge Sort.md",
     "Introduction to Algorithms.md",
+    "algorithms/sort/Insertion Sort.md",
     "algorithms/Insertion Sort.md",
     "Competitive Programmer's Handbook.md",
     "Problem Solving Patterns.md",
