@@ -50,7 +50,7 @@ for k = p to r
 
 ## JavaScript Implementation
 
-[Click this link to check the javascript file](javascript/Merge.js)
+[Click this link to check the javascript file](javascript/Merge.js).
 
 ```javascript
 const MergeSort = (array) => {
