@@ -1,8 +1,14 @@
 # Algorithms
 
 ## Insertion Sort
+Insertion sort is an efficient algorithm for sorting smaller number of elements and the best way to sort a sorted array.
 
+**[Check this link to see the full analysis](algorithms/sort/Insertion%20Sort.md)**
+
+**Obsidian Shortcut**
 [[Insertion Sort]]
+
+
 
 ## Analyzing Algorithms
 
