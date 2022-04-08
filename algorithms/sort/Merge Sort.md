@@ -86,4 +86,4 @@ const merge = (left, right) => {
 
 // CALL
 MergeSort([]);
-```
+``` 

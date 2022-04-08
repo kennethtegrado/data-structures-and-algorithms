@@ -36,3 +36,10 @@ Is an algorithm that follows the principle of divide and conquer.
 Obsidian Shortcut:
 [[Merge Sort]]
 
+## Growth of Functions
+Defined as the **order of growth** of the running time of an algorithm, that gives a simple characterization of the algorithm's efficient and also allows us to compare the relative performance and alternative algorithms.
+
+When we look at input sizes large enough to make only the order of growth of the running time relevant, we are studying the ***asymptotic*** efficiency of algorithms.
+
+### Asymptotic Notation
+The notations we use to descriibe the asymptotic running time of an algorithm are defined in terms of functions whose domains are the set of natural nubmers. Such notations are convenient for describing the worst-case running-time function T(n), which usually is defined only on integer input sizes. 
