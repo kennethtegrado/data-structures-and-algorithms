@@ -7,12 +7,8 @@
         "id": "c187db507162e055",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "algorithms/Insertion Sort.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/Insertion Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
