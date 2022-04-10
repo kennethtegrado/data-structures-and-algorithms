@@ -88,3 +88,4 @@ a tree with a designated root node where every edge either points away from or t
 # Graph Algorithms
 
 -   [Depth-First-Search](algorithms/graphs/depth-first/DFS.md)
+-   [Breadth-First-Search](algorithms/graphs/breadth-first/BFS.md)

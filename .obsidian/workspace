@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algorithms/graphs/depth-first/DFS.md",
+            "file": "algorithms/graphs/breadth-first/BFS.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b6f24b9cf2b2daaa",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/graphs/depth-first/DFS.md",
+                "file": "algorithms/graphs/breadth-first/BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
-    "algorithms/graphs/depth-first/DFS.md",
+    "algorithms/graphs/breadth-first/BFS.md",
     "Untitled.md",
+    "algorithms/graphs/depth-first/DFS.md",
     "Graph Theory.md",
     "Pasted.md",
     "Introduction to Algorithms.md",
     "algorithms/sort/Merge Sort.md",
     "algorithms/sort/Insertion Sort.md",
     "algorithms/Insertion Sort.md",
-    "Competitive Programmer's Handbook.md",
-    "Problem Solving Patterns.md"
+    "Competitive Programmer's Handbook.md"
   ]
 }

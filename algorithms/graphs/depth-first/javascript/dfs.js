@@ -21,3 +21,20 @@ const depthFirstSearch = (graph, startingNode) => {
 
     return visited;
 };
+
+// RECURSIVE DFS
+const recursiveDFS = (head) => {
+    // RESULT FOR ALL VISITED NODES
+    const result = [];
+
+    const traverse = (node) => {
+        if (node.left) traverse(node);
+        if (node.right) traverse(node);
+        result.push(node);
+    };
+
+    // START WITH OUR HEAD
+    traverse(head);
+
+    return result;
+};
