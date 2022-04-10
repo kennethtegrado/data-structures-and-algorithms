@@ -33,3 +33,54 @@ a tree with a designated root node where every edge either points away from or t
 ### Bipartite Graph
 
 ![image](images/Pasted%20image%2020220410182418.png)
+
+### Complete Graphs
+
+![image](Pasted%20image%2020220410182648.png)
+
+## Representing Graphs
+
+### Adjacency Matix
+
+![images](Pasted%20image%2020220410182936.png)
+
+**Pros**
+
+-   Space efficient for representing graphs
+-   Ege weight lookup is O(1)
+-   Simplest graph representation
+
+**Cons**
+
+-   Requires O(v^2) space
+-   Iterating over all edges takes O(v^2) time
+
+### Adjacency List
+
+![image](images/Pasted%20image%2020220410183702.png)
+
+**Pros**
+
+-   Space efficient for representing sparse graphs
+-   Iterating over all edges is efficient
+
+**Cons**
+
+-   Less space efficient for denser graphs
+-   Edge weight lookup is O(E)
+-   Slightly more complex graph representation
+
+### Edge List
+
+![image](images/Pasted%20image%2020220410184021.png)
+
+**Pros**
+
+-   Space efficient for representing sparse graphs
+-   Iterating over all edges is efficient
+-   Very simple structure
+
+**Cons**
+
+-   Less space efficient for denser graphs
+-   Edge weight lookup is O(E)
