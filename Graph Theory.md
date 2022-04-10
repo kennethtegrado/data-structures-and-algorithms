@@ -29,3 +29,7 @@ a tree with a designated root node where every edge either points away from or t
 ### Directed Acyclic Graphs
 
 ![image](images/Pasted%20image%2020220410181827.png)
+
+### Bipartite Graph
+
+![image](images/Pasted%20image%2020220410182418.png)
