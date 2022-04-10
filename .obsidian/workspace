@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Graph Theory.md",
+            "file": "algorithms/graphs/depth-first/DFS.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory.md",
+                "file": "algorithms/graphs/depth-first/DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,8 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
+    "algorithms/graphs/depth-first/DFS.md",
+    "Untitled.md",
     "Graph Theory.md",
     "Pasted.md",
     "Introduction to Algorithms.md",
@@ -97,8 +99,6 @@
     "algorithms/sort/Insertion Sort.md",
     "algorithms/Insertion Sort.md",
     "Competitive Programmer's Handbook.md",
-    "Problem Solving Patterns.md",
-    "images/Pasted image 20220403165656.png",
-    "images/Pasted image 20220403165647.png"
+    "Problem Solving Patterns.md"
   ]
 }

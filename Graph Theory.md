@@ -84,3 +84,7 @@ a tree with a designated root node where every edge either points away from or t
 
 -   Less space efficient for denser graphs
 -   Edge weight lookup is O(E)
+
+# Graph Algorithms
+
+-   [Depth-First-Search](algorithms/graphs/depth-first/DFS.md)
