@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algorithms/graphs/breadth-first/BFS.md",
+            "file": "Clean Code.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b6f24b9cf2b2daaa",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/graphs/breadth-first/BFS.md",
+                "file": "Clean Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +90,12 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
-    "algorithms/graphs/breadth-first/BFS.md",
-    "Untitled.md",
-    "algorithms/graphs/depth-first/DFS.md",
+    "Clean Code.md",
     "Graph Theory.md",
-    "Pasted.md",
     "Introduction to Algorithms.md",
+    "algorithms/graphs/breadth-first/BFS.md",
+    "algorithms/graphs/depth-first/DFS.md",
+    "Pasted.md",
     "algorithms/sort/Merge Sort.md",
     "algorithms/sort/Insertion Sort.md",
     "algorithms/Insertion Sort.md",
