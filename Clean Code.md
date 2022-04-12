@@ -63,3 +63,35 @@ Using single-letter names and numeric constants make searching for variables in 
 Readers shouldn't have to mentally translate your names into other names they already know.
 
 ## Class Names
+
+Classes and objects should have a noun or noun phrase names like Person, Component, and Account. Avoid words like Manager, Processor, Data, or Info in the name of a class. A class name should not be a verb.
+
+### Method Names
+
+Methods should have verb or verb phrase names like postPayment, deletePage, or save. Accessors, mutators, and predicates should be named for ther value and prefixed with `get, set, and is`.
+
+## Don't be cute
+
+Ensure that names you used are understandable for all kinds of people. Avoid using collioguialisms or slang.
+
+## Pick One Word per Concept
+
+Pick one word for one abstract concept and stick with it. Avoid interchanging words like fetch, retrive, and get but choose one for the whole program.
+
+A consistent lexicon is a great boon to the programmers who must use your code.
+
+## Don't Pun
+
+Avoid using the same word for two purposes. For example, when we are using the prefix `add` for classes that creates a new value by adding or concatenating two values, but we decided to also use `add` for methods that insert an item to a list, it is a pun.
+
+## Use Solution Domain Names
+
+Remember that the people who read your code will be programmers so you should use computer science (CS) terms, algorithm names, pattern names, math terms, and so forth.
+
+## Use Problem Domain Names
+
+When you cannot use programming related terms for naming, then you can use problem domain names.
+
+## Add Meaningful Context
+
+Imagine that you have variables named firstName, lastName, street, houseNumber, city, state, and zipcode. Taken together it’s pretty clear that they form an address. But what if you just saw the state variable being used alone in a method? Would you automatically infer that it was part of an address? You can add context by using prefixes: addrFirstName, addrLastName, addrState, and so on. At least readers will understand that these variables are part of a larger structure. Of course, a better solution is to create a class named Address. Then, even the compiler knows that the variables belong to a bigger concept.
