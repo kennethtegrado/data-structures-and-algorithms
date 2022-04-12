@@ -148,3 +148,13 @@ A single argument in a function may be asking a question about that argument. At
 Passing a boolean into a function is a truly terrible practice. It loudly procalims that this funcion does more than one thing. It does one thing if the flag is true and another if the flag is false.
 
 ### Dyadic Functions
+
+A function with two arguments is harder to understand than a monadic function. Use only dyadic functions if we are trying to take ordered components of a single value.
+
+> writeField(name) is better than writeField(output-Stream, name)
+
+**Best Use Cased of Dyadic**
+
+```
+Point p = new Point(0,0)
+```
