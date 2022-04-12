@@ -33,3 +33,33 @@ console.log(`Hi I am ${name}, but I prefer that you call me by ${nickname}`);
 Programmers must avoid leaving false clues that obscure the meaning of code. We should avoid words whose entrenched meanings vary from our intended meaning. For example, `gen` would be a poor variable name because people might misunderstand it for `generation` even though what you mean is gender.
 
 Do not refer to groupings of variables such as `nameList` if it is not a **List**.
+
+## Make Meaningful Distinctions
+
+Programmers create problems for themselves when they write code solely to satisfy a compiler or interpreter. Because programmers know that they can't use the same variable names to refer to two things in the same scope, there are ways where programmers are tempted to change one name in an `arbitrary` way.
+
+### The don'ts
+
+-   Using noninformative names
+    -   a1, a2, a2
+        -   What does a even mean
+-   Using indistinct noise words
+    -   PersonInfo and PersonData has not make any different meaning from a Person name
+-   Using indistinguishible names
+    -   moneyAmount is indistinguishable from money
+
+## Use Pronounceable Names
+
+It is important to make variable names pronounceable because a significant part of our brains is dedicated to the concept of words.
+
+Avoid names such as `namGenEma` and instead use `nameGenderEmail`.
+
+## Use Searchable Names
+
+Using single-letter names and numeric constants make searching for variables in an application difficult. One will easily find `FIRST_NAME` than a variable `x` during development and debugging.
+
+## Avoid Mental Mapping
+
+Readers shouldn't have to mentally translate your names into other names they already know.
+
+## Class Names
