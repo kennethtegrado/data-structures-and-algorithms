@@ -158,3 +158,29 @@ A function with two arguments is harder to understand than a monadic function. U
 ```
 Point p = new Point(0,0)
 ```
+
+### Triads
+
+Functions that take three arguments are significantly harder to understand than dyads.
+
+### Argument Objects
+
+When a function seems to need more than two or three arguments, it is likely that some of those arguments ought to be wrapped into a class of their own.
+
+Reducing the number of arguments by creating objects out of them may seem like cheating, but it's not. When groups of variables are passed together, the way x and y are in the example above, they are likely part of a concept that deserves a name of its own.
+
+### Verbs and Keywords
+
+Choosing good names for a function can go a long way toward explaining the intent of the function and the order and intent of the arguments.
+
+-   Monads should have a verb/noun pair. Ex. `writeField(name)`.
+
+## Have no Side Effects
+
+Your function promises to do one thing, but it also does other hidden things. Sometimes it will make unexpected changes to the variables of its own class. Sometimes it will make them to the parameters passed into the function or to system globals. In either the case they are devious and damaging mistruths that often result in strange temporal couplings and order dependencies.
+
+### Output Arguments
+
+Arguments are most naturally interpreted as inputs to a function. If you have been programming for more than a few years, I'm sure you've done a double-take on an argument that was actually an output rather than an input.
+
+<!-- 76 -->
