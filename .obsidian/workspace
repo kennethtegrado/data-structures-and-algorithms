@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clean Code.md",
+            "file": "Software Design Patterns.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b6f24b9cf2b2daaa",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Code.md",
+                "file": "Software Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +90,7 @@
   },
   "active": "c187db507162e055",
   "lastOpenFiles": [
+    "Software Design Patterns.md",
     "Clean Code.md",
     "Graph Theory.md",
     "Introduction to Algorithms.md",
@@ -97,7 +99,6 @@
     "Pasted.md",
     "algorithms/sort/Merge Sort.md",
     "algorithms/sort/Insertion Sort.md",
-    "algorithms/Insertion Sort.md",
-    "Competitive Programmer's Handbook.md"
+    "algorithms/Insertion Sort.md"
   ]
 }
