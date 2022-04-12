@@ -29,3 +29,7 @@ console.log(`Hi I am ${name}, but I prefer that you call me by ${nickname}`);
 > Most problems in our codes are not because of its simplicity but rather its `implicity`. Implicity is the degree to which the context is not explicit in the code itself.
 
 ## Avoid Disinformation
+
+Programmers must avoid leaving false clues that obscure the meaning of code. We should avoid words whose entrenched meanings vary from our intended meaning. For example, `gen` would be a poor variable name because people might misunderstand it for `generation` even though what you mean is gender.
+
+Do not refer to groupings of variables such as `nameList` if it is not a **List**.
