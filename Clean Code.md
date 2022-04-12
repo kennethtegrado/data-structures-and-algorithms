@@ -52,7 +52,7 @@ Programmers create problems for themselves when they write code solely to satisf
 
 It is important to make variable names pronounceable because a significant part of our brains is dedicated to the concept of words.
 
-Avoid names such as `namGenEma` and instead use `nameGenderEmail`.
+Avoid names such as `namGenEma` or `naGeEM` and instead use `nameGenderEmail`.
 
 ## Use Searchable Names
 
@@ -128,3 +128,23 @@ To include the setups and teardowns, we include setups, then we include the test
     and add an include statement with the path of that page.
     - To search the parent. . .
 ```
+
+## Use Descriptive Names
+
+Don't be afraid to make a name long. A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment. Use a naming convention that allows multiple words to be easily read in the function names, and then make use of those mulitple words to give the function a name that says what it does.
+
+## Function Arguments
+
+The ideal number of arguments for a function is zero `(niladic)`. Next comes one `(monadic)`, followed closely by two `(dyadic)`. Three arguments `(triadic)` should be avoided where possible. More than three `(polyadic)` requires very special jsutification - and then shouldn't be used anyway.
+
+### Common Monadic Forms
+
+A single argument in a function may be asking a question about that argument. At the same time, it can also mean that we want to transform it into something else and returning it. These two things are what users are what readers expect when they see a function with a single argument.
+
+> `event` - a function that accepts a single argument but creates an alteration in the system.
+
+### Flag Arguments
+
+Passing a boolean into a function is a truly terrible practice. It loudly procalims that this funcion does more than one thing. It does one thing if the flag is true and another if the flag is false.
+
+### Dyadic Functions
