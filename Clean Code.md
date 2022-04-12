@@ -95,3 +95,36 @@ When you cannot use programming related terms for naming, then you can use probl
 ## Add Meaningful Context
 
 Imagine that you have variables named firstName, lastName, street, houseNumber, city, state, and zipcode. Taken together it’s pretty clear that they form an address. But what if you just saw the state variable being used alone in a method? Would you automatically infer that it was part of an address? You can add context by using prefixes: addrFirstName, addrLastName, addrState, and so on. At least readers will understand that these variables are part of a larger structure. Of course, a better solution is to create a class named Address. Then, even the compiler knows that the variables belong to a bigger concept.
+
+# Functions
+
+## Functions should be small
+
+The first rule of functions is that they should be small.
+
+A good function is a function that only takes about 2-5 lines long.
+
+## Functions should only do one thing
+
+> FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY.
+
+To know if a function is doing more than one thing, check if you can extract another function from it with a name that is not merely a restatement of its implementation.
+
+## One Level of Abstraction per Function
+
+In order to make our function only do one thing, we need to make sure that the statements within our function are all at the same level of abstraction.
+
+## The Stepdown Rule
+
+Every function should be followed by those at the next level of abstraction so that we can read the program, descending one level of abstraction at a time as we read down the list of functions.
+
+**Simple Imlementation in Paragraph**
+
+```
+To include the setups and teardowns, we include setups, then we include the test page content, and then we include the teardowns.
+    - To include the setups, we include the suite setup if this is a suite, then we include the
+    regular setup.
+    - To include the suite setup, we search the parent hierarchy for the “SuiteSetUp” page
+    and add an include statement with the path of that page.
+    - To search the parent. . .
+```
