@@ -2,7 +2,7 @@
 
 # Patterns to Study
 
--   Using Hash Tables to record our value
+-   Hash Table to find value
 -   Shifting Pointers
 
 # Problem Samples
