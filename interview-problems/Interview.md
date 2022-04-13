@@ -1,5 +1,10 @@
 # Coding Interviews
 
+# Patterns to Study
+
+-   Using Hash Tables to record our value
+-   Shifting Pointers
+
 # Problem Samples
 
 ## Two Sums (easy)

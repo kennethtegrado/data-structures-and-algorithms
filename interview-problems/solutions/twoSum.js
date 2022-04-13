@@ -1,5 +1,9 @@
 // BEST SOLUTION
 // O(n)
+// LOGIC
+/*
+    
+*/
 const twoSum = (nums, target) => {
     // RECORD
     const numsMap = {};
