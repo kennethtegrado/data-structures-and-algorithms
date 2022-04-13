@@ -1,5 +1,24 @@
-// OPTIMIZED SOLUTION
+// BEST SOLUTION
 const twoSum = (nums, target) => {
+    const numsMap = {};
+
+    for (let p = 0; p < nums.length; p++) {
+        const currentMapVal = numsMap[nums[p]];
+
+        if (currentMapVal >= 0) {
+            return [currentMapVal, p];
+        } else {
+            const numberToFind = target - nums[p];
+
+            numsMap[numberToFind] = p;
+        }
+    }
+
+    return null;
+};
+
+// ANOTHER OPTIMIZED SOLUTION
+const twoSumOptimized = (nums, target) => {
     const t = {};
 
     // IF WE HAVE DUPLICATES WHAT WE WILL HAVE IS THE LAST INDEX
