@@ -1,15 +1,19 @@
 // BEST SOLUTION
+// O(n)
 const twoSum = (nums, target) => {
+    // RECORD
     const numsMap = {};
 
     for (let p = 0; p < nums.length; p++) {
-        const currentMapVal = numsMap[nums[p]];
-
-        if (currentMapVal >= 0) {
-            return [currentMapVal, p];
+        // CHECK IF WE ALREADY HAVE A VALUE FOR ELEMENT NUMS[P]
+        if (numsMap[nums[p]] >= 0) {
+            // RETURN IF WE ALREADY HAVE ONE
+            return [numsMap[nums[p]], p];
         } else {
+            // CREATE A RECORD OF NTF
             const numberToFind = target - nums[p];
 
+            // Create a record of NTF and set the value of index to p
             numsMap[numberToFind] = p;
         }
     }
@@ -18,6 +22,7 @@ const twoSum = (nums, target) => {
 };
 
 // ANOTHER OPTIMIZED SOLUTION
+// O(2n) -> O(n)
 const twoSumOptimized = (nums, target) => {
     const t = {};
 
