@@ -17,9 +17,7 @@ const maxArea = function (height) {
     while (leftPointer < rightPointer) {
         length = Math.min(height[leftPointer], height[rightPointer]);
         area = length * (rightPointer - leftPointer);
-
         maxArea = Math.max(area, maxArea);
-
         // SHIFT LOGIC
         if (height[leftPointer] <= height[rightPointer]) leftPointer++;
         else rightPointer--;

@@ -3,7 +3,7 @@
 # Patterns to Study
 
 -   Hash Table to Find Value
--   Shifting Pointers
+-   [Shifting Pointers](https://youtu.be/4YKBwKnTnlM)
 
 # Problem Samples
 
@@ -117,6 +117,10 @@ Analyzing Space and Time Complexity
 
 **JavaScript**
 [Check out the JavaScript Solution](solutions/containerWithMostArea.js)
+
+## Trapping Rainwater
+
+Given an array of integers representing an elevation map where the width of each bar is 1, return how much rainwater can be trapped.
 
 So my girlfriend tells me that she is there for my problems, and I should vent out my problems. So I did, as I was feeling super down (becomes a normal reoccurrence in my life and I hate it). As I was ranting, she told me that I should stop as it was too heavy for her, and “nakakasawa” na problems ko for her, she even cursed at me for being redundant with my problems.
 Fast forward a couple of weeks later she told me that she was sorry for outbursting because she was just angry that she could not do anything about it, and told me that I could share my problems with her again.
