@@ -225,6 +225,10 @@ Creating Test Cases
 -   The size of the window will change based on new characters, and characters we've already seen before.
 -   Our seen characters hashmap keeps track of what characters we've seen, and the index we saw them at.
 
+### Solution
+
+[Check out this solution](solutions/lengthOfLongestSubstring.js)
+
 ---
 
 So my girlfriend tells me that she is there for my problems, and I should vent out my problems. So I did, as I was feeling super down (becomes a normal reoccurrence in my life and I hate it). As I was ranting, she told me that I should stop as it was too heavy for her, and “nakakasawa” na problems ko for her, she even cursed at me for being redundant with my problems.
