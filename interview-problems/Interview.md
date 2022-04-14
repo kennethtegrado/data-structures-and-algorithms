@@ -4,6 +4,8 @@
 
 -   Hash Table to Find Value
 -   [Shifting Pointers](https://youtu.be/4YKBwKnTnlM)
+-   Sliding Window
+    -   Form a window over some portion of sequential data, then move that window throughout the data to capture different parts of it.
 
 ---
 
@@ -193,6 +195,35 @@ Writing a logic
 ### Solution
 
 [Check out this JavaScript Solution](solutions/typedOutString.js)
+
+## Longest Substring Without Repeating Characters
+
+Given a string, find the length of the longest substring without repeating characters.
+
+**STEP 1**
+Verify Constraints
+
+-   Is the substring contiguous?
+    -   Yes look for a substring not a subsequence.
+    -   `A substring is a smaller part of an element that are sequential, while subsequence means that they can also be not contiguous as long as they are part of the array/string`
+-   Does case sensitivity matter?
+    -   No, assume all the strings are in lower case.
+
+**STEP 2**
+Creating Test Cases
+
+-   "abccabb"
+    -   3
+-   "ccccc"
+    -   1
+-   ""
+    -   0
+
+**UTILIZING SLIDING WINDOW TECHNIQUE**
+
+-   Use a sliding window to represent the current substring
+-   The size of the window will change based on new characters, and characters we've already seen before.
+-   Our seen characters hashmap keeps track of what characters we've seen, and the index we saw them at.
 
 ---
 
