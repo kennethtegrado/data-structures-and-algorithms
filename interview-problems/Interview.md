@@ -7,7 +7,7 @@
 
 ---
 
-# Problem Samples
+# Array Problem Samples
 
 ## Two Sums (easy)
 
@@ -120,7 +120,7 @@ Analyzing Space and Time Complexity
 **JavaScript**
 [Check out the JavaScript Solution](solutions/containerWithMostArea.js)
 
-## Trapping Rainwater
+## Trapping Rainwater (hard)
 
 Given an array of integers representing an elevation map where the width of each bar is 1, return how much rainwater can be trapped.
 
@@ -151,6 +151,48 @@ Writing our logic
 
 **JavaScript**
 [Check out the JavaScript Solution](solutions/trappingRainwater.js)
+
+# String Problem Samples
+
+## Backspace String Compare (easy)
+
+Given two strings S and T, return if theyy equal when both are typed out. Any '#' that appears in the strings counts as backspace.
+
+**STEP 1**
+Verify the constraints
+
+-   What happens when two #'s appear beside each other?
+    -   Delete the two values before the first #.
+-   What happens to # when there is no character to remove?
+    -   It deletes nothing then, just like backspace would.
+-   Are two empty strings equal to each other?
+    -   Yes, consider two empty strings as equal.
+-   Does case sensitivity matter?
+    -   Yes it does, "a" does not equal "A".
+
+**STEP 2**
+Writing some test cases
+
+-   "ab#z" "az#z"
+    -   True
+-   "abc#d" "acc#c"
+    -   False
+-   "ab##" "x#c1##"
+    -   True
+-   "a###b" "b"
+    -   True
+-   "A" "a"
+    -   False
+
+**STEP 3**
+Writing a logic
+
+-   We iterate every element in our string, whenever we found a backspace then we remove the previous element.
+-   Compare the elements in our two strings.
+
+### Solution
+
+[Check out this JavaScript Solution](solutions/typedOutString.js)
 
 ---
 
