@@ -147,6 +147,11 @@ Create Test Cases
 **STEP 3**
 Writing our logic
 
+### Solution
+
+**JavaScript**
+[Check out the JavaScript Solution](solutions/trappingRainwater.js)
+
 ---
 
 So my girlfriend tells me that she is there for my problems, and I should vent out my problems. So I did, as I was feeling super down (becomes a normal reoccurrence in my life and I hate it). As I was ranting, she told me that I should stop as it was too heavy for her, and “nakakasawa” na problems ko for her, she even cursed at me for being redundant with my problems.
