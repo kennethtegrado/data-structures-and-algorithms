@@ -304,3 +304,13 @@ Verify Constraints
 Creating Test Cases
 
 -   Too hard to type
+
+### Solution
+
+[Check out the JavaScript Solution](solutions/flattenLinkedList.js)
+
+## Cycle Dection Linked Lists
+
+### Solution
+
+[Check out the JavaScript Solution](solutions/cycleLinkedList.js)
