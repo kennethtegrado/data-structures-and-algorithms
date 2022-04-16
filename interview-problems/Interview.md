@@ -6,6 +6,8 @@
 -   [Shifting Pointers](https://youtu.be/4YKBwKnTnlM)
 -   Sliding Window
     -   Form a window over some portion of sequential data, then move that window throughout the data to capture different parts of it.
+-   Subproblems
+    -   A problem that we have to solve along the way to solving the main problem
 
 ---
 
@@ -229,9 +231,57 @@ Creating Test Cases
 
 [Check out this solution](solutions/lengthOfLongestSubstring.js)
 
----
+# Linked Lists Problems
 
-So my girlfriend tells me that she is there for my problems, and I should vent out my problems. So I did, as I was feeling super down (becomes a normal reoccurrence in my life and I hate it). As I was ranting, she told me that I should stop as it was too heavy for her, and “nakakasawa” na problems ko for her, she even cursed at me for being redundant with my problems.
-Fast forward a couple of weeks later she told me that she was sorry for outbursting because she was just angry that she could not do anything about it, and told me that I could share my problems with her again.
-Reluctant, but I did share my problems with her again. A few weeks she was caring and listening to me very well, but a couple of weeks ago she became very much similar to what happened back in the past as she was becoming more and more uninterested. There was this one time where I was again feeling down, she told me I could tell her my problems but after a few minutes I learned she was playing a video game and actually asked help from me for that video game and never went back to asking if I was okay or not.
-I just feel like I am too much for her? Am I? I try to understand her and keep her out of my problems even if she does tell me to share, but with what happened in the past, I usually just keep to myself and not share my problems all that much. I am too tired to just keep all my problems to myself, but she even told me that I shouldn’t do that but when I do share with her she just writes me off. I don’t know what to do. Maybe I am too worked up and emotions are going wild?
+# Reverse a Linked Lists
+
+Given a single linked list, we reverse the pointers of every node
+
+**STEP 1**
+Verifying Constraints
+
+-   What do we return if we get null or a single node?
+    -   Just return null and the node back respectively
+
+**STEP 2**
+Creating Test Cases
+
+-   [1,2,3,4,5]
+    -   [5,4,3,2,1]
+-   []
+    -   []
+-   [3]
+    -   [3]
+
+**STEP 3**
+Developing the logic
+
+-   Reverse all the pointers from the head to the tail
+
+## M, N Reversals (Medium)
+
+Given a linked list and numbers m and n, return it back with only positions m to n in reverse.
+
+**STEP 1**
+Verify the constraints
+
+-   Will m and n always be within the bounds of the linked list?
+    -   Yes, assume 1 <= m <= n <= length of linked list.
+-   Can we receive m and n values for the whole linked list?
+    -   Yes, we can receive m = 1 and n = length of linked list
+
+**STEP 2**
+Writing out some test cases
+
+-   [1,2,3,4,5] 2, 4
+    -   [1,4,3,2,5]
+-   [1,2,3,4,5] 1, 5
+    -   [5,4,3,2,1]
+-   [5] 1 1
+    -   [5]
+-   null 0 0
+    -   null
+
+### Solution
+
+## [Check out this JavaScript Solution](solutions/reverseBetween.js)
