@@ -284,4 +284,10 @@ Writing out some test cases
 
 ### Solution
 
-## [Check out this JavaScript Solution](solutions/reverseBetween.js)
+[Check out this JavaScript Solution](solutions/reverseBetween.js)
+
+## Flatten a Multilevel Doubly Linked List
+
+Given a doubly linekd list, list nodes also have a child property that can point to a separate doubly linked list. These child lists can also have one or more child doubly linked lists of their own, and so on.
+
+Return the list as a single level flattened doubly linked list.
