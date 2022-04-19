@@ -314,3 +314,14 @@ Creating Test Cases
 ### Solution
 
 [Check out the JavaScript Solution](solutions/cycleLinkedList.js)
+
+# Binary Tree Problems
+
+## Maximum Depth of Binary Tree (easy)
+
+Given a binary tree, find its maximum depth.
+
+Maximum depth is the number of nodes along the longest path from the root node to the furthest leaf node.
+
+**STEP 1**
+Verify constraints
