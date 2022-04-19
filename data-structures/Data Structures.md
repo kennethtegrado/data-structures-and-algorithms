@@ -17,3 +17,7 @@ A type of an array where the number of elements in the array are fixed. You cann
 ## Dynamic Arrays
 
 A type of an array where the number of elements in the array are not fixed. It increases in size as long as the number of elements increases.
+
+# Hash Tables
+
+# Sorting
